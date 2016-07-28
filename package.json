@@ -1,0 +1,48 @@
+{
+  "name": "javascriptCodeTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "andersonCodeTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "env": {
+      "mocha": true,
+      "node": true,
+      "es6": true,
+      "browser": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+      "res": true,
+      "app": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 0,
+      "no-undef": 0,
+      "no-extra-semi": 0,
+      "no-redeclare": 0,
+      "comma-dangle": 0,
+      "no-mixed-spaces-and-tabs": 0,
+      "no-extra-boolean-cast": 0,
+      "no-empty": 0,
+      "no-constant-condition": 0,
+      "no-cond-assign": 0,
+      "no-unreachable": 0,
+      "no-func-assign": 0,
+      "no-unexpected-multiline": 0
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+  },
+  "keywords": [],
+  "author": "Brian Stumbaugh <brian.stumbaugh@gmail.com>",
+  "license": "MIT"
+}
